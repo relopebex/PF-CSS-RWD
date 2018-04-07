@@ -1,0 +1,27 @@
+body{
+  font-family: Verdana;
+  width: 90%;
+  margin-left: 10%;
+}
+
+header{
+  padding: 3px 10px;
+  margin-bottom: 5px;
+  background: #5b7989;
+  border-radius: 10px 10px;
+}
+
+header h1{
+  padding-left: 10px;
+  font-size: 1.5em;
+  text-shadow: 8px #02010a;
+  color: white;
+}
+
+footer{
+  font-size: .8em
+  border: solid 2px #1f47a8;
+  padding-top: 10px;
+  margin-top: 15px;
+  text-shadow: .3px;
+}
