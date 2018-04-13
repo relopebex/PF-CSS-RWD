@@ -1,9 +1,9 @@
 body{
   font-family: 'Dancing Script';
   background:  #02010a;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 header{
@@ -45,12 +45,13 @@ li{
 }
 
 #imagenpaisajes img {
-  height: 70%;
+  height: 60%;
   transition-property: border rotate;
   transition-duration: 0.5s;
 }
+
 #imagenretratos img {
-  height: 70%;
+  height: 60%;
   transition-property: border translate;
   transition-duration: 0.5s;
 }
@@ -114,6 +115,15 @@ li{
 }
 
 .contenedor2 > div{
+  background-color: #d5c75f;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  border: 1px;
+  padding: 2.2em;
+}
+
+.contenedor3 > div{
   background-color: #d5c75f;
   height: 400px;
   width: 100%;
