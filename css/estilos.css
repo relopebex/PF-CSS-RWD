@@ -103,6 +103,15 @@ header{
   display: flex;
 }
 
+.imgppal{
+  width: 90%;
+}
+.imgpai{
+  width: 60%;
+}
+.imgret{
+  width: 60%;
+}
 @media (max-width:720px){
   header{
     text-align: center;
