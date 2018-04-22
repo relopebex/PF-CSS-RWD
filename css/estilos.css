@@ -89,6 +89,10 @@ li{
     display: flex;
     flex-direction: column;
   }
+  .contenedor3{
+    display: flex;
+    flex-direction: column;
+  }
   .piepagina{
     display: flex;
     flex-direction: column;
@@ -97,6 +101,10 @@ li{
 
 @media (min-width:721px) and (max-width:2400px){
   .contenedor2{
+    display: flex;
+    flex-direction: row;
+  }
+  .contenedor3{
     display: flex;
     flex-direction: row;
   }
@@ -133,27 +141,32 @@ li{
 }
 
 #retrato1 img{
+  height: 70%;
   -webkit-filter:blur(10px);
   filter:blur(10px);
 }
 #retrato2 img{
+  height: 70%;
   -webkit-filter:grayscale(100%);
   filter:grayscale(100%);
 }
 #retrato4 img{
+  height: 70%;
   -webkit-filter:grayscale(100%);
   filter:grayscale(100%);
-}#retrato6 img{
+}
+#retrato6 img{
+  height: 70%;
   -webkit-filter:grayscale(100%);
   filter:grayscale(100%);
 }
 #retrato3 img{
+  height: 70%;
   -webkit-filter:sepia(90%);
   filter:sepia(90%);
 }
 #retrato5 img{
-  -webkit-filter:invert(100%);
-  filter:invert(100%);
+  height: 70%;
 }
 footer{
   padding: 3px 10px;
