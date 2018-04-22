@@ -40,18 +40,36 @@ li{
   padding: 0px 5px 10px;
 }
 
+header{
+  animation-duration:3s;
+  animation-name: slidein;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -0-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+@@keyframes slidein {
+    from{
+      margin-top: 150%;
+    }
+    to{
+      margin-top: -5%;
+    }
+}
+
 #imagenpppal img{
   height: 95%;
 }
 
 #imagenpaisajes img {
-  height: 60%;
+  height: 80%;
   transition-property: border rotate;
   transition-duration: 0.5s;
 }
 
 #imagenretratos img {
-  height: 60%;
+  height: 85%;
   transition-property: border translate;
   transition-duration: 0.5s;
 }
@@ -93,6 +111,10 @@ li{
     display: flex;
     flex-direction: column;
   }
+  .contenedor4{
+    display: flex;
+    flex-direction: column;
+  }
   .piepagina{
     display: flex;
     flex-direction: column;
@@ -105,6 +127,10 @@ li{
     flex-direction: row;
   }
   .contenedor3{
+    display: flex;
+    flex-direction: row;
+  }
+  .contenedor4{
     display: flex;
     flex-direction: row;
   }
@@ -124,7 +150,7 @@ li{
 
 .contenedor2 > div{
   background-color: #d5c75f;
-  height: 400px;
+  height: 250px;
   width: 93%;
   text-align: center;
   border: 1px;
@@ -133,39 +159,75 @@ li{
 
 .contenedor3 > div{
   background-color: #d5c75f;
-  height: 400px;
+  height: 250px;
   width: 93%;
   text-align: center;
   border: 1px;
   padding: 2.2em;
 }
-
+.contenedor4 > div{
+  background-color: #d5c75f;
+  height: 250px;
+  width: 93%;
+  text-align: center;
+  border: 1px;
+  padding: 2.2em;
+}
 #retrato1 img{
-  height: 70%;
+  height: 85%;
   -webkit-filter:blur(10px);
   filter:blur(10px);
 }
 #retrato2 img{
-  height: 70%;
+  height: 85%;
   -webkit-filter:grayscale(100%);
   filter:grayscale(100%);
 }
 #retrato4 img{
-  height: 70%;
+  height: 85%;
   -webkit-filter:grayscale(100%);
   filter:grayscale(100%);
 }
 #retrato6 img{
-  height: 70%;
+  height: 85%;
   -webkit-filter:grayscale(100%);
   filter:grayscale(100%);
 }
 #retrato3 img{
-  height: 70%;
+  height: 85%;
   -webkit-filter:sepia(90%);
   filter:sepia(90%);
 }
 #retrato5 img{
+  height: 85%;
+}
+
+#paisaje1 img{
+  height: 70%;
+  -webkit-filter:blur(10px);
+  filter:blur(10px);
+}
+#paisaje2 img{
+  height: 70%;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+#paisaje4 img{
+  height: 70%;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+#paisaje6 img{
+  height: 70%;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+#paisaje3 img{
+  height: 70%;
+  -webkit-filter:sepia(90%);
+  filter:sepia(90%);
+}
+#paisaje5 img{
   height: 70%;
 }
 footer{
